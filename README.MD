@@ -79,6 +79,7 @@ There are 3 commands in our application:
 * Create Account Command
 * Credit Amount to Account Command
 * Debit Amount from Account Command
+
 All of these commands extend from a Base Command as an abstract Class
 
 ## Event Building
@@ -88,7 +89,8 @@ There are 3 events in our application:
 * Create Account event
 * Credit Amount to Account event
 * Debit Amount from Account event
-  All of these events extend from a Base Event as an abstract Class
+
+All of these events extend from a Base Event as an abstract Class
 
 ## Aggregate
 `Aggregate is a fundamental concept that represents a cluster of related domain objects and encapsulates the business logic and state for a specific part of the domain.`
